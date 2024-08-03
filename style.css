@@ -113,4 +113,74 @@ nav ul li a{
   cursor: pointer;
 }
 
-
+/* ==========================================================================
+  02. HEADER SECTION
+  =========================================================================== */
+#about{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-left-col{
+  flex-basis: 50%;
+}
+.about-left-col img{
+  width: 100%;
+}
+.about-right-col{
+  flex-basis: 50%;
+  text-align: right;
+}
+.about-text{
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.about-text h3{
+  margin: 50px 0 10px;
+  font-size: 26px;
+  font-style: italic;
+}
+.about-text h4{
+  font-size: 18px;
+  font-style: italic;
+  color: #797979;
+}
+/* ==========================================================================
+  03. FEATURES SECTION
+  =========================================================================== */
+#features{
+  padding: 50px 0;
+}
+.features-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.features-col{
+  width: 25%;
+  text-align: center;
+}
+.features-col img{
+  width: 100px;
+}
+.features-col h4{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.feature-btn{
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.feature-btn .line{
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
