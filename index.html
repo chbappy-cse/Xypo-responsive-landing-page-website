@@ -7,6 +7,8 @@
     <meta name="keywords" content="Complete Website Design, HTML Website Design, Mobile Responsive Website Design, Landing Page Website HTML and CSS, CH BAPPY Senior Frontend Engineer">
     <title>Xypo - Complete Website Design Using HTML, CSS, and JavaScript</title>
     <link rel="stylesheet" href="/style.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
 
@@ -30,12 +32,12 @@
 
     <nav id="sideNav">
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">COURSES</a></li>
-            <li><a href="#">OFFER</a></li>
-            <li><a href="#">CONRACT</a></li>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#offer">OFFER</a></li>
+            <li><a href="#contact">CONRACT</a></li>
         </ul>
     </nav>
     <img id="menuBtn" src="/images/menu.png"  alt="menu icon">
@@ -226,5 +228,8 @@
 
 
     <script src="/script.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 </html>
